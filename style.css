@@ -7,16 +7,39 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    
     align-items: center;;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'roboto';
+    font-size: 3rem;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'roboto';
+    font-size: 1.5rem;
 }
 
 .genius {
     display: grid;
     grid-template-areas: 'green red' 'yellow blue';
-    grid-gap: 10px;
-    border: 1px solid #ffff;
-    background-color: #ffff;
+    grid-gap: 20px;
+    border: 30px solid #161e21;
+    background-color: #161e21;
     border-radius: 100%;   
     width: 700px;
     height: 700px;
@@ -24,26 +47,30 @@ body {
 
 .blue {
     grid-area: blue;
-    background-color: blue;
+    background: radial-gradient(#3f8ab4,#0c6da1);
     border-bottom-right-radius: 100%;
+    box-shadow: 0 3px 10px rgb(200 200 200 / 0.2);
 }
 
 .red {
     grid-area: red;
-    background-color: red;
+    background: radial-gradient(#c17773,#971d15);
     border-top-right-radius: 100%;
+    box-shadow: 0 3px 10px rgb(200 200 200 / 0.2);
 }
 
 .yellow {
     grid-area: yellow;
-    background-color: rgb(197, 185, 17);
+    background: radial-gradient(#ffff33,#b3b300);
     border-bottom-left-radius: 100%;
+    box-shadow: 0 3px 10px rgb(200 200 200 / 0.2);
 }
 
 .green {
     grid-area: green;
-    background-color: green;
+    background: radial-gradient(#339933,#004d00);
     border-top-left-radius: 100%;
+    box-shadow: 0 3px 10px rgb(200 200 200 / 0.2);
 }
 
 .selected {

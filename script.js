@@ -12,11 +12,12 @@ const blue = document.querySelector('.blue');
 const red = document.querySelector('.red');
 const green = document.querySelector('.green');
 const yellow = document.querySelector('.yellow');
+const scoreID = document.querySelector('#score');
 
 
 
 let playGame = () => {
-    alert(`Bem vindo! Iniciando um novo jogo!`)
+  //  alert(`Bem vindo! Iniciando um novo jogo!`)
     order = [];
     clickedOrder = [];
     score = 0;
@@ -25,7 +26,8 @@ let playGame = () => {
 }
 
 let nextLevel = () => {
-    score++;
+    scoreID.innerHTML = score;
+    score++;    
     shuffleOrder();
     console.log('score:', score)
 }
