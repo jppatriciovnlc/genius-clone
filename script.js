@@ -14,10 +14,8 @@ const green = document.querySelector('.green');
 const yellow = document.querySelector('.yellow');
 const scoreID = document.querySelector('#score');
 
-
-
 let playGame = () => {
-  //  alert(`Bem vindo! Iniciando um novo jogo!`)
+    alert(`Bem vindo! Iniciando um novo jogo!`)
     order = [];
     clickedOrder = [];
     score = 0;
@@ -105,9 +103,12 @@ yellow.onclick = () => click(2)
 blue.onclick = () => click(3)
 
 
+playGame();
 
 
 
 
-playGame()
+
+
+
 

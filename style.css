@@ -45,6 +45,14 @@ h3 {
     height: 700px;
 }
 
+@media only screen and (max-width: 800px) {
+    .genius {
+        width: 330px;
+        height: 330px;
+        border: 15px solid #161e21;
+    }
+}
+
 .blue {
     grid-area: blue;
     background: radial-gradient(#3f8ab4,#0c6da1);
