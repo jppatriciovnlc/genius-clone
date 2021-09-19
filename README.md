@@ -26,7 +26,8 @@ The project was developed using:
 
 ## Images
 
-![Preview](relative/path/to/geniusly.png?raw=true "Title")
+
+<img src="/geniusly.png" width="400" height="auto" alt="preview">
 ---
 
 ## Contact
