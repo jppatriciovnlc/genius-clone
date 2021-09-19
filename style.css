@@ -12,6 +12,8 @@ body {
     align-items: center;;
 }
 
+
+
 .header {
     display: flex;
     flex-direction: column;
@@ -19,7 +21,8 @@ body {
     align-items: center;
     padding: 0px;
     margin-top: 1%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
+    height: 20%;;
 }
 
 h1 {
@@ -34,6 +37,7 @@ h3 {
     font-size: 1.5rem;
 }
 
+
 .genius {
     display: grid;
     grid-template-areas: 'green red' 'yellow blue';
@@ -41,8 +45,8 @@ h3 {
     border: 30px solid #161e21;
     background-color: #161e21;
     border-radius: 100%;   
-    width: 700px;
-    height: 700px;
+    height: 60%;
+    width: calc(0.6 * 100vh);
 }
 
 @media only screen and (max-width: 800px) {
